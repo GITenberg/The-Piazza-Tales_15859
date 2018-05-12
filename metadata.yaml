@@ -13,6 +13,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/9
     wikipedia: http://en.wikipedia.org/wiki/Herman_Melville
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/15859#The-Piazza-Tales
 gutenberg_issued: '2005-05-18'
 gutenberg_type: Text
 identifiers:
