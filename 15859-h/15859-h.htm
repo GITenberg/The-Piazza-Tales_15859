@@ -1,92 +1,93 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>The Project Gutenberg eBook of The Piazza Tales, by Herman Melville</title>
 <style title="Standard Format" type="text/css">
 
-body.tei		        { margin: 4ex 10%; text-align: justify }
+body.tei            { margin: 4ex 10%; text-align: justify }
 
-div.frontpage      	        { margin: 4em 0em }
-div.contents       	        { margin: 2em 0em }
-div.colophon       	        { margin: 4em 0em; font-size: 80% }
-div.footnotes      	        { margin: 2em 0em }
-div.figure-caption 	        { margin: 1em 0em; text-align: center; font-size: 80% }
+div.frontpage                { margin: 4em 0em }
+div.contents                 { margin: 2em 0em }
+div.colophon                 { margin: 4em 0em; font-size: 80% }
+div.footnotes                { margin: 2em 0em }
+div.figure-caption           { margin: 1em 0em; text-align: center; font-size: 80% }
 
-blockquote.tei	     	        { margin: 2em 4em }
-div.tei              	        { margin: 2em 0em }
-div.tei-epigraph     	        { margin: 0em 0em 1em 10em; font-size: small; }
-div.tei-dateline	        { margin: 1ex 0em; text-align: right }
+blockquote.tei               { margin: 2em 4em }
+div.tei                         { margin: 2em 0em }
+div.tei-epigraph                { margin: 0em 0em 1em 10em; font-size: small; }
+div.tei-dateline          { margin: 1ex 0em; text-align: right }
 div.tei-salute                  { margin: 1ex 0em; }
 div.tei-signed                  { margin: 1ex 0em; text-align: right }
 div.tei-byline                  { margin: 1ex 0em; }
                                 /* calculate from size of body = 80% */
-div.marginnote		        { margin: 0em 0em 0em -12%; width: 11%; float: left; font-size: 80%}
+div.marginnote            { margin: 0em 0em 0em -12%; width: 11%; float: left; font-size: 80%}
 div.tei-lg                      { margin: 1em 0em 1em 2em; text-align: left }
                                 /* indent verse continuation lines 4em */
-div.pubdate          	        { margin: 4em 0em; }
+div.pubdate                     { margin: 4em 0em; }
 
-p.tei              	        { margin: 1em 0em; }
-p.noindent	     	        { margin: 1em 0em; text-indent: 0em }
+p.tei                        { margin: 1em 0em; }
+p.noindent                { margin: 1em 0em; text-indent: 0em }
 
-p.tei-l		                { margin: 0em 0em 0em 4em; text-align: left;
-                     	          text-indent: -4em }
+p.tei-l                     { margin: 0em 0em 0em 4em; text-align: left;
+                                  text-indent: -4em }
 div.tei-sp                      { margin: 1em 0em 1em  2em }
-div.tei-speaker	                { margin: 0em 0em 1em -2em;
-                        	  font-weight: bold; text-indent: 0em }
+div.tei-speaker                   { margin: 0em 0em 1em -2em;
+                             font-weight: bold; text-indent: 0em }
 div.tei-stage                   { margin: 1em 0em; font-weight: normal; font-style: italic }
-span.tei-stage	     	        { font-weight: normal; font-style: italic }
+span.tei-stage               { font-weight: normal; font-style: italic }
 
-div.tei-eg             	        { padding: 1em; font-size: 80%;
-                     	          color: black; background-color: #eee }
+div.tei-eg                      { padding: 1em; font-size: 80%;
+                                  color: black; background-color: #eee }
 
 p.floatleft                     { float: left;  margin: 1em 2em 1em 0; }
 p.floatright                    { float: right; margin: 1em 0 1em 2em; }
 
-hr.doublepage	     	        { margin: 4em 0em; height: 5px }
-hr.page            	        { margin: 4em 0em }
+hr.doublepage                { margin: 4em 0em; height: 5px }
+hr.page                      { margin: 4em 0em }
 
 h1.tei-author                   { margin-top: 1em; margin-bottom: 1em; font-size: 173% }
 h1.tei-title                    { margin-top: 1em; margin-bottom: 1em; font-size: 207% }
-h1.tei		     	        { margin-top: 1em; margin-bottom: 1em; font-size: 173% }
-h2.tei	     	                { margin-top: 1em; margin-bottom: 1em; font-size: 144% }
-h3.tei	             	        { margin-top: 1em; margin-bottom: 1em; font-size: 120% }
-h4.tei        	     	        { margin-top: 1em; margin-bottom: 1em; font-size: 100% }
+h1.tei                    { margin-top: 1em; margin-bottom: 1em; font-size: 173% }
+h2.tei                         { margin-top: 1em; margin-bottom: 1em; font-size: 144% }
+h3.tei                          { margin-top: 1em; margin-bottom: 1em; font-size: 120% }
+h4.tei                       { margin-top: 1em; margin-bottom: 1em; font-size: 100% }
 
 ol.tei, ul.tei, dl.tei          { margin: 1em 0em }
-ul.simple          	        { margin: 1em 0em; list-style-type: none }
-ul.toc             	        { margin: 1em 0em; list-style-type: none }
+ul.simple                    { margin: 1em 0em; list-style-type: none }
+ul.toc                       { margin: 1em 0em; list-style-type: none }
 
-li.tei                 	        { margin: 1em 0em }
+li.tei                          { margin: 1em 0em }
 dd.tei                          { display: compact; }
-dt.tei                 	        { font-weight: bold; }
-ul.toc li          	        { margin: 0em }
+dt.tei                          { font-weight: bold; }
+ul.toc li                    { margin: 0em }
 
 pre.tei                         { margin: 0em; }
 
 span.tei-title                  { font-style: italic }
-span.name-ship     	        { font-style: italic }
-span.footnoteref   	        { vertical-align: super; font-size: 60% }
-span.code          	        { font-family: monospace; font-size: 110%; }
+span.name-ship               { font-style: italic }
+span.footnoteref             { vertical-align: super; font-size: 60% }
+span.code                    { font-family: monospace; font-size: 110%; }
 
-dl.tei                 	        { }
-dl.tei dt              	        { }
-dl.tei dd              	        { margin: 0em 0em 0em 4em }
+dl.tei                          { }
+dl.tei dt                       { }
+dl.tei dd                       { margin: 0em 0em 0em 4em }
 
-dl.footnote        	        { font-size: 80% }
-dl.footnote dt     	        { font-weight: normal; text-align: right;
-                     	          float: left; width: 3em }
-dl.footnote dd     	        { margin: 0em 0em 1ex 4em }
+dl.footnote                  { font-size: 80% }
+dl.footnote dt               { font-weight: normal; text-align: right;
+                                  float: left; width: 3em }
+dl.footnote dd               { margin: 0em 0em 1ex 4em }
 
-ul.tei-castlist 		{ margin: 0em; list-style-type: none }
-li.tei-castitem		        { margin: 0em; }
-table.tei-castgroup     	{ margin: 0em; }
-ul.tei-castgroup		{ margin: 0em; list-style-type: none;
-				  padding-right: 2em; border-right: solid black 2px; }
-caption.tei-castgroup-head	{ caption-side: right; width: 50%; text-align: left;
-				  vertical-align: middle; padding-left: 2em; }
-*.tei-roledesc  		{ font-style: italic }
-*.tei-set			{ font-style: italic }
+ul.tei-castlist      { margin: 0em; list-style-type: none }
+li.tei-castitem              { margin: 0em; }
+table.tei-castgroup        { margin: 0em; }
+ul.tei-castgroup     { margin: 0em; list-style-type: none;
+              padding-right: 2em; border-right: solid black 2px; }
+caption.tei-castgroup-head { caption-side: right; width: 50%; text-align: left;
+              vertical-align: middle; padding-left: 2em; }
+*.tei-roledesc       { font-style: italic }
+*.tei-set         { font-style: italic }
 
 table.rules                     { border-collapse: collapse; }
 
@@ -94,12 +95,12 @@ table.rules caption,
 table.rules th,
 table.rules td                  { border: 1px solid black; }
 
-th.tei			        { padding: 0em 1em }
-td.tei			        { padding: 0em 1em }
+th.tei                 { padding: 0em 1em }
+td.tei                 { padding: 0em 1em }
 
 img.tei-formula                 { vertical-align: middle; }
 
-span.tei-pb			{position: absolute; left: 1%; right: 91%; font-size: 8pt; font-style: normal; }
+span.tei-pb       {position: absolute; left: 1%; right: 91%; font-size: 8pt; font-style: normal; }
     hr.full { width: 100%; }
     pre      {font-size: 8pt;}
     .pg      { text-align: center; }
@@ -115,9 +116,10 @@ with this eBook or online at <a href = "http://www.gutenberg.net">www.gutenberg.
 <p>Title: The Piazza Tales</p>
 <p>       The Piazza; Bartleby; Benito Cereno; The Lightning-Rod Man; The Encantadas, Or, Enchanted Islands; The Bell-Tower</p>
 <p>Author: Herman Melville</p>
-<p>Release Date: May 18, 2005  [eBook #15859]</p>
+<p>Release Date: May 18, 2005  [eBook #15859]<br />
+Most recently updated: September 6, 2014</p>
 <p>Language: English</p>
-<p>Character set encoding: ISO-8859-1</p>
+<p>Character set encoding: UTF-8</p>
 <p>***START OF THE PROJECT GUTENBERG EBOOK THE PIAZZA TALES***</p>
 <p>&nbsp;</p>
 <h4 class="pg">E-text prepared by Dave Maddock, Josephine Paolucci, Joshua Hutchinson,<br />
@@ -502,7 +504,7 @@ a little flock of sheep, the farmer&#39;s banded
 children passed, a-nutting, and said, "How
 sweet a day"—it was, after all, but what their
 fathers call a weather-breeder—and, indeed,
-was become go sensitive through my illness, as
+was become so sensitive through my illness, as
 that I could not bear to look upon a Chinese
 creeper of my adoption, and which, to my
 delight, climbing a post of the piazza, had
@@ -717,7 +719,7 @@ sitting at her fairy window.</p>
 the tunneled pass, as through a leveled telescope,
 <span class="tei-pb" id="page020">[pg 020]</span>
 <a name="Pg020" id="Pg020" class="tei tei-anchor"></a>
-I caught sight of a, far-off, soft, azure
+I caught sight of a far-off, soft, azure
 world. I hardly knew it, though I came
 from it.</p>
 
@@ -1286,7 +1288,7 @@ he declared that it stopped the circulation in
 his arms. If now he lowered the table to his
 waistbands, and stooped over it in writing, then
 there was a sore aching in his back. In short,
-the, truth of the matter was, Nippers knew not
+the truth of the matter was, Nippers knew not
 what he wanted. Or, if he wanted anything,
 it was to be rid of a scrivener&#39;s table altogether.
 Among the manifestations of his diseased ambition
@@ -2306,7 +2308,7 @@ privacy.</p>
 <p class="tei tei-p">"<span style="font-style: italic" class="tei tei-hi">That&#39;s</span> the word, Turkey," said I—"<span style="font-style: italic" class="tei tei-hi">that&#39;s</span>
 it."</p>
 
-<p class="tei tei-p">"Oh, <span style="font-style: italic" class="tei tei-hi">prefer</span>? oh yes—queer wood. I never
+<p class="tei tei-p">"Oh, <span style="font-style: italic" class="tei tei-hi">prefer</span>? oh yes—queer word. I never
 <span class="tei-pb" id="page074">[pg 074]</span>
 <a name="Pg074" id="Pg074" class="tei tei-anchor"></a>
 use it myself. But, sir, as I was saying, if he
@@ -3287,7 +3289,7 @@ saw that his dim eyes were open; otherwise
 he seemed profoundly sleeping. Something
 prompted me to touch him. I felt his hand,
 when a tingling shiver ran up my arm and
-down my spine to my, feet.</p>
+down my spine to my feet.</p>
 
 <p class="tei tei-p">The round face of the grub-man peered upon
 me now. "His dinner is ready. Won&#39;t he
@@ -3666,7 +3668,7 @@ among themselves, but sat intent upon their
 task, except at intervals, when, with the
 peculiar love in negroes of uniting industry
 with pastime, two and two they sideways
-clashed their hatchets together,&#39; like cymbals,
+clashed their hatchets together, like cymbals,
 with a barbarous din. All six, unlike
 the generality, had the raw aspect of unsophisticated
 Africans.
@@ -4914,7 +4916,7 @@ put to him concerning his ship.</p>
 recalled, the black wizards of Ashantee would
 strike up with their hatchets, as in ominous
 comment on the white stranger&#39;s thoughts.
-Pressed by such enigmas: and portents, it would
+Pressed by such enigmas and portents, it would
 have been almost against nature, had not, even
 into the least distrustful heart, some ugly misgivings
 obtruded.</p>
@@ -5314,7 +5316,7 @@ negress.
 
 <p class="tei tei-p">The uncommon vigor of the child at length
 roused the mother. She started up, at a distance
-facing Captain Delano. But as if not, at
+facing Captain Delano. But as if not at
 all concerned at the attitude in which she had
 been caught, delightedly she caught the child
 up, with maternal transports, covering it with
@@ -5354,7 +5356,7 @@ water-balconies previously mentioned—retreats
 cut off from the deck. As his
 foot pressed the half-damp, half-dry sea-mosses
 matting the place, and a chance phantom cats-paw—an
-islet of breeze, unheralded unfollowed—as
+islet of breeze, unheralded, unfollowed—as
 this ghostly cats-paw came fanning his
 cheek; as his glance fell upon the row of small,
 round dead-lights—all closed like coppered
@@ -5582,7 +5584,7 @@ which, though now in strange seas, had often
 pressed the beach of Captain Delano&#39;s home,
 and, brought to its threshold for repairs, had
 familiarly lain there, as a Newfoundland dog;
-the sight of that household, boat evoked a
+the sight of that household boat evoked a
 thousand trustful associations, which, contrasted
 with previous suspicions, filled him not only
 with lightsome confidence, but somehow with
@@ -5641,7 +5643,7 @@ towards dusk.</p>
 
 <p class="tei tei-p">The calm was confirmed. In the far distance,
 away from the influence of land, the leaden
-ocean seemed laid out and leaded up, it&#39;s course
+ocean seemed laid out and leaded up, its course
 finished, soul gone, defunct. But the current
 from landward, where the ship was, increased;
 silently sweeping her further and further towards
@@ -5721,7 +5723,7 @@ twang to it. And yet, I dare say,
 Spaniards in the main are as good folks as any
 <span class="tei-pb" id="page189">[pg 189]</span>
 <a name="Pg189" id="Pg189" class="tei tei-anchor"></a>
-in Duxbury, Massachusetts. Ah good!
+in Duxbury, Massachusetts. Ah good! At
 last "Rover" has come.</p>
 
 <p class="tei tei-p">As, with its welcome freight, the boat
@@ -5730,7 +5732,7 @@ venerable gestures, sought to restrain the
 blacks, who, at the sight of three gurried
 water-casks in its bottom, and a pile of wilted
 pumpkins in its bow, hung over the bulwarks
-in disorderly raptured.</p>
+in disorderly raptures.</p>
 
 <p class="tei tei-p">Don Benito, with his servant, now appeared;
 his coming, perhaps, hastened by hearing the
@@ -5987,7 +5989,7 @@ was a claw-footed old table lashed to the deck;
 a thumbed missal on it, and over it a small,
 meagre crucifix attached to the bulk-head. Under
 the table lay a dented cutlass or two, with
-a hacked harpoon, among some; melancholy
+a hacked harpoon, among some melancholy
 old rigging, like a heap of poor friars&#39; girdles.
 There were also two long, sharp-ribbed settees
 <span class="tei-pb" id="page198">[pg 198]</span>
@@ -6161,7 +6163,7 @@ best regulated mind is not always free.</p>
 
 <p class="tei tei-p">Meantime the agitation of the Spaniard had
 a little loosened the bunting from around him,
-so that one broad fold swept curtain-like over,
+so that one broad fold swept curtain-like over
 the chair-arm to the floor, revealing, amid a
 profusion of armorial bars and ground-colors—black,
 blue, and yellow—a closed castle in a
@@ -7939,7 +7941,7 @@ this same negro José was the one who, without being commanded
 to do so by the negro Babo, as Lecbe and Martinqui
 <span class="tei-pb" id="page260">[pg 260]</span>
 <a name="Pg260" id="Pg260" class="tei tei-anchor"></a>
-were, stabbed his master, Don Alexandro, after be had been
+were, stabbed his master, Don Alexandro, after he had been
 dragged half-lifeless to the deck; * * that the mulatto steward,
 Francesco, was of the first band of revolters, that he
 was, in all things, the creature and tool of the negro Babo;
@@ -8048,7 +8050,7 @@ to another mistake of the Americans, but one impossible to be
 avoided, as upon the approach of the boats, Don Joaquin, with
 a hatchet tied edge out and upright to his hand, was made by
 the negroes to appear on the bulwarks; whereupon, seen with
-arms in his hands and is a questionable altitude, he was shot
+arms in his hands and in a questionable attitude, he was shot
 <span class="tei-pb" id="page263">[pg 263]</span>
 <a name="Pg263" id="Pg263" class="tei tei-anchor"></a>
 for a renegade seaman; * * *—that on the person of Don
